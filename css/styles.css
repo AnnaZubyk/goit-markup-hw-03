@@ -137,20 +137,16 @@ body {
 .hero-portfolio {
   display: flex;
   align-items: center;
-}
-.hero-portfolio {
-  background-color: #f5f5f5;
-}
-.hero {
-  padding-bottom: 120px;
+  background-color: var(--colir-pages);
 }
 .menu-button {
   display: flex;
   align-items: center;
 }
 .hero {
-  padding-top: 192px;
-  padding-bottom: 192px;
+  padding-bottom: 120px;
+  padding-top: 120px;
+  text-align: center;
   background-color: var(--color-link);
 }
 .hero-title {
@@ -164,9 +160,6 @@ body {
 .hero-title {
   margin-top: 0px;
   margin-bottom: 48px;
-}
-.hero {
-  text-align: center;
 }
 .menu-list:not(:last-child) {
   margin-right: 24px;
@@ -201,9 +194,15 @@ body {
   background-color: var(--bth-backround);
   color: var(--color-bth);
 }
+.button:hover,
+.button:focus {
+  color: var(--color-light);
+  background-color: var(--color-bth);
+}
 .menu-button {
   padding-top: 96px;
   padding-bottom: 72px;
+  justify-content: center;
 }
 .button:not(:last-child) {
   margin: 24px;
@@ -212,11 +211,6 @@ body {
   margin-left: auto;
   margin-right: 24px;
 }
-.button:hover,
-.button:focus {
-  color: var(--color-light);
-  background-color: var(--color-bth);
-}
 .modal {
   background-color: var(--color-bth);
   color: var(--color-light);
@@ -224,12 +218,6 @@ body {
 .menu-button {
   list-style: none;
 }
-.menu-button {
-  padding-top: 96px;
-  padding-bottom: 72px;
-  justify-content: center;
-}
-
 .content {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -248,7 +236,6 @@ body {
 .menu-photo {
   padding-bottom: 120px;
 }
-
 .menu-photo {
   row-gap: 48px;
 }
@@ -307,11 +294,7 @@ body {
 }
 .description {
   width: 264px;
-  margin: 24px;
-}
-.description {
-  display: flex;
-  flex-wrap: wrap;
+  margin-right: 24px;
 }
 .description:nth-child(4n) {
   margin: 24px;
@@ -348,7 +331,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-text);
 }
-
 .text {
   font-weight: 400;
   font-size: 16px;
@@ -360,12 +342,15 @@ body {
 
 .footer {
   display: flex;
+  flex-wrap: wrap;
+  text-align: left;
   background-color: var(--color-link);
 }
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 156px;
+  padding-right: 1169px;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -375,14 +360,12 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
-  width: 115px;
-  height: 22px;
   color: var(--bth-backround);
 }
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   margin-top: 16px;
   text-align: left;
