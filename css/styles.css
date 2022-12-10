@@ -296,9 +296,7 @@ body {
   width: 264px;
   margin-right: 24px;
 }
-.description:nth-child(4n) {
-  margin: 24px;
-}
+
 .photo-box {
   padding-top: 32px;
   padding-bottom: 32px;
