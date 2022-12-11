@@ -305,6 +305,7 @@ body {
 .photo-box {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
   border: 0.5px solid var(--bth-backround);
   background-color: var(--color-light);
 }
